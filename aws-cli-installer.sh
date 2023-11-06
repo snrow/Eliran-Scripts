@@ -1,6 +1,5 @@
 #!bin/bash
-unzip 
-if [ $? -eq 0 ]; then
+if [ `unzip` ]; then
     echo zip is installed
 else
     sudo apt install unzip

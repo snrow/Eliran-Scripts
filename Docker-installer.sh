@@ -30,6 +30,3 @@ sudo usermod -aG docker $USER
 
 #activate the changes to group docker
 newgrp docker
-
-#test
-docker -v
