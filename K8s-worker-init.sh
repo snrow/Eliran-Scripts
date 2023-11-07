@@ -1,4 +1,8 @@
 #!/bin/bash
+echo "Code written by : Eliran Ben Maor"
+ehco "Last update: 04/09/2023"
+echo "Last time checked: 04/09/2023 by: Eliran"
+
 read -p "Please enter the desired nodename: " node_name 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@NOTICE NOW YOU NEED TO PUT THE MASTER IP@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 read -p "Please enter the *master* node IP: " node_ip

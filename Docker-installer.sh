@@ -4,6 +4,9 @@
 # Made by Avshalom Hadad + Eliran Ben Maor.
 
 #!/bin/bash set -x set -e
+echo "Code written by : Eliran Ben Maor + Avshalom Hadad "
+ehco "Last update: 04/09/2023"
+echo "Last time checked: 04/09/2023 by: Eliran"
 
 # Set up the repository
 sudo apt-get update -y
