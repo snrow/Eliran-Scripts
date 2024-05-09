@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Code written by : Eliran Ben Maor"
-echo "Last update: 27/11/2023"
+echo "Last update: 09/05/2024"
 echo "Last time checked: 27/11/2023 by: Eliran"
 
 echo "##################### Downloading textsnatcher ######################"
