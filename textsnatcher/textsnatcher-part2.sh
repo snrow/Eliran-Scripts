@@ -7,7 +7,7 @@ echo "##################### Downloading textsnatcher ######################"
 flatpak install flathub com.github.rajsolai.textsnatcher -y
 
 echo "##################### Done ######################"
-flatpak run com.github.rajsolai.textsnatcher -y
+flatpak run com.github.rajsolai.textsnatcher
 
 
 echo " The program should start  "
@@ -19,5 +19,5 @@ if [ $answer == "y" ] || [ $answer == "Y" ] ; then
 else
     sudo apt install gnome-screenshot -y
     echo "now it should work!"
-    flatpak run com.github.rajsolai.textsnatcher -y
+    flatpak run com.github.rajsolai.textsnatcher
 fi
